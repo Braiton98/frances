@@ -1,10 +1,17 @@
-import Navbar from './navbar'
+import Navbar from './Navbar/Navbar'
+import Rutas from './routes/routes'
+
 
 function App() {
 
   return (
+
     <>
-        <Navbar />
+
+      <Rutas>
+        
+      </Rutas>
+
     </>
   )
 }
