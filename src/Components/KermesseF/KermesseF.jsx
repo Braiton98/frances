@@ -3,7 +3,7 @@
 const KermesseF = () => {
     return (
         <div>
-            <h1>Kermesse Full</h1>
+            <h2>Kermesse Full</h2>
         </div>
     );
 };

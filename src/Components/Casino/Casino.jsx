@@ -3,7 +3,7 @@
 const Casino = () => {
     return (
         <div>
-            <h1>Casino</h1>
+            <h2>Casino Party</h2>
         </div>
     );
 };

@@ -3,7 +3,7 @@
 const Pochoclera = () => {
     return (
         <div>
-            <h1>Pochoclera</h1>
+            <h2>Pochoclera</h2>
         </div>
     );
 };

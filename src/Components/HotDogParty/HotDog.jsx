@@ -3,7 +3,7 @@
 const HotDog = () => {
     return (
         <div>
-            <h1>Hot Dog Party</h1>
+            <h2>Hot Dog Party</h2>
         </div>
     );
 };

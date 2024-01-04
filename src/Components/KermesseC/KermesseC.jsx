@@ -3,7 +3,7 @@
 const KermesseC = () => {
     return (
         <div>
-            <h1>Kermesse Clasica</h1>
+            <h2>Kermesse Clasica</h2>
         </div>
     );
 };

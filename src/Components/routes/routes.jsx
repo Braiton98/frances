@@ -7,13 +7,15 @@ import Casino from '../Casino/Casino';
 import HotDog from '../HotDogParty/HotDog';
 import Alfombra from '../AlfombraRoja/Alfombra';
 import Navbar from '../Navbar/Navbar';
+import Banner from '../Banner/Banner';
 
 
 
 function Rutas() {
     return (
         <Router>
-             <Navbar />
+            <Navbar />
+            <Banner />
             <Routes>
                 <Route path='/' element={<KermesseC />} />
                 <Route path='/pochoclera' element={<Pochoclera />} />

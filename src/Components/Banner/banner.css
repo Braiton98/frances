@@ -1,0 +1,95 @@
+.slider-container {
+  display: flex;
+  width: 80%;
+  height: 270px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.slider {
+  background-image: url(../../assets/Img/kermessefull.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  animation: animate 15s infinite;
+}
+
+/* KEYFRAMES */
+
+@keyframes animate {
+  0% {
+    background-image: url(../../assets/Img/kermessefull.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+  }
+
+  20% {
+    background-image: url(../../assets/Img/pochoclera02.jpg);
+    background-size: cover;
+    background-position-y: -400px;
+  }
+
+  40% {
+    background-image: url(../../assets/Img/animacion.png);
+    background-size: cover;
+    background-position-y: -100px;
+  }
+
+  60% {
+    background-image: url(../../assets/Img/animacion02.png);
+    background-size: cover;
+    background-position-y: -100px;
+  }
+
+  80% {
+    background-image: url(../../assets/Img/full.png);
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url(../../assets/Img/full.png);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  @keyframes animate {
+    0% {
+      background-image: url(../../assets/Img/kermessefull.jpg);
+      background-size: cover;
+      background-position-y: -200px;
+    }
+
+    20% {
+      background-image: url(../../assets/Img/pochoclera02.jpg);
+      background-size: cover;
+      background-position-y: -400px;
+    }
+
+    40% {
+      background-image: url(../../assets/Img/animacion.png);
+      background-size: cover;
+      background-position-y: -700px;
+    }
+
+    60% {
+      background-image: url(../../assets/Img/animacion02.png);
+      background-size: cover;
+      background-position-y: -700px;
+    }
+
+    80% {
+      background-image: url(../../assets/Img/full.png);
+      background-size: cover;
+      background-position-y: -100px;
+    }
+
+    100% {
+      background-image: url(../../assets/Img/full.png);
+      background-size: cover;
+      background-position-y: -100px;
+    }
+  }
+}
